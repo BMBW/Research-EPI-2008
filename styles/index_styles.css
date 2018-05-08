@@ -1,3 +1,62 @@
 body{
 	background-color: #98fb98;
 }
+
+#showcase{
+
+	background-color: coral;
+
+}
+
+.container{
+
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+
+#showcase2{
+
+	background-image:url('images/bg.jpg');
+	background-position: center right;
+	min-height: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+
+#navbar1{
+
+	background-color: black;
+}
+
+
+#navbar1 a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+
+}
+
+#navbar1 ul{
+
+	padding: 0;
+	list-style: none;
+}
+
+#navbar1 li{
+
+	display: inline;
+}
+
+
+
+.container1{
+
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}

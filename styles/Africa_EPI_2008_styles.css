@@ -1,0 +1,39 @@
+
+
+<!-- Decorating the List in Bottom -->
+
+
+.container2{
+
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+
+
+#navbar2{
+
+	background-color: #C0C0C0;
+}
+
+
+#navbar2 a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+
+}
+
+#navbar2 ul{
+
+	padding: 0;
+	list-style: none;
+}
+
+#navbar2 li{
+
+	display: inline;
+}
+

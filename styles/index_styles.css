@@ -1,5 +1,7 @@
 body{
 	background-color: #98fb98;
+	background-image: url('images/4.jpg'); /*Setting the image to fit the page*/
+	background-size: cover;
 }
 
 #showcase{

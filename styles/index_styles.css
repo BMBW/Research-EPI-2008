@@ -1,123 +1,91 @@
 body{
+
 	background-color: #98fb98;
 	background-image: url('images/index_bg.jpg'); /*Setting the image to fit the page*/
 	background-size: cover;
+	margin:0;
+	padding:0; 
+	overflow-y:scroll;
+	font-family: Arial;
+	font-size: 18px; 
 }
 
-#showcase{
+#nav{
 
-	background-color: coral;
-
+	background-color: #222;
 }
 
-.container{
-
-	width: 80%;
-	margin:auto;
-	overflow: hidden;
+ #nav_wrapper{
+	width: 960px; 
+	margin: 0 auto;
+	text-align: left;
 }
 
-
-#showcase2{
-
-	background-image:url('images/bg.jpg');
-	background-position: center right;
-	min-height: 100px;
-	margin-bottom: center;
-	text-align: center;
-	text-decoration-color: #0000FF;
-	color: #0000FF;
-	font-size: 110%;
-
-}
-
-
-#navbar1{
-
-	background-color: black;
-}
-
-
-#navbar1 a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-
-}
-
-#navbar1 ul{
-
+#nav ul{
+	list-style-type: none;
 	padding: 0;
-	list-style: none;
+	margin:0;
+	position: relative; 	
 }
 
-#navbar1 li{
-
-	display: inline;
+#nav ul li{
+	display: inline-block;
 }
 
-
-
-.container1{
-
-	width: 80%;
-	margin:auto;
-	overflow: hidden;
+#nav ul li:hover{
+	background-color:#333; 
 }
 
-
-<!-- Decorating the List in Bottom -->
-
-
-.container2{
-
-	width: 80%;
-	margin:auto;
-	overflow: hidden;
+#nav ul li a,visited{
+	color: red;
+	display: block;
+	padding: 15px;
+	text-decoration: none; 
 }
 
-
-
-#navbar2{
-
-	background-color: #C0C0C0;
-}
-
-
-#navbar2 a{
-	color: #fff;
+#nav ul li a:hover{
+	color: #ccc;
 	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-
 }
 
-#navbar2 ul{
-
-	padding: 0;
-	list-style: none;
+#nav ul li:hover ul{
+	display:block;
 }
 
-#navbar2 li{
-
-	display: inline;
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color:#333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 200px;
 }
 
+#nav ul ul li
+{
+	display:block;
+}
 
+#nav ul ul li a,visited{
+	color: #ccc;
+}
 
-<!-- Footer styles -->
+#nav ul ul li a:hover{
+	color:#099;
+}
 
+/*
 #main-footer
 {
 
-	background:#333;
-	color: #fff;
-	text-align: center;
-	padding: 20px;
-	margin-top: 40px;
+	/*background:#333;*/
+	/*color: #fff;
+/*	text-align: center;
+	/*padding: 20px;
+	margin-top: 40px;*/
 
-}
+/*}
 
 
 

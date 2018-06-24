@@ -1,36 +1,78 @@
-/* Decorating the List in Bottom */
+#nav{
 
-
-.container2{
-
-	width: 80%;
-	margin:auto;
-	overflow: hidden;
+	background-color: #222;
 }
 
-
-
-#navbar2{
-
-	background-color: #C0C0C0;
+ #nav_wrapper{
+	width: 960px; 
+	margin: 0 auto;
+	text-align: left;
 }
 
-
-#navbar2 a{
-	color: #fff;
-	text-decoration: none;
-	font-size: 18px;
-	padding-right: 15px;
-
-}
-
-#navbar2 ul{
-
+#nav ul{
+	list-style-type: none;
 	padding: 0;
-	list-style: none;
+	margin:0;
+	position: relative; 	
 }
 
-#navbar2 li{
+#nav ul li{
+	display: inline-block;
+	font-size: 18px;
+}
 
-	display: inline;
+#nav ul li:hover{
+	background-color:#333; 
+}
+
+
+#nav ul li a,visited{
+	color: red;
+	display: block;
+	padding: 15px;
+	text-decoration: none; 
+}
+
+#nav ul li a:hover{
+	color: #ccc;
+	text-decoration: none;
+}
+
+#nav ul li:hover ul{
+	display:block;
+}
+
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color:#333;
+	border: 5px solid #222;
+	border-top: 0;
+	margin-left: -5px;
+	min-width: 200px;
+	z-index: 1;
+}
+
+#nav ul ul li
+{
+	display:block;
+}
+
+#nav ul ul li a,visited{
+	color: #ccc;
+}
+
+#nav ul ul li a:hover{
+	color:#099;
+}
+
+
+
+#main-footer
+{
+
+	color: black;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
 }

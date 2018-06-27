@@ -1,6 +1,5 @@
 body{
 
-	background-color: #98fb98;
 	background-image: url('images/index_bg.jpg'); /*Setting the image to fit the page*/
 	background-size: cover;
 	margin:0;
@@ -8,6 +7,15 @@ body{
 	overflow-y:scroll;
 	font-family: Arial;
 	font-size: 18px; 
+}
+
+#nav0{
+	background-color: pink;
+	margin: 5px 5px 5px 5px;
+	padding: 1%;
+	color: green;
+	opacity: 0.8;
+	text-shadow: 3px 2px red;
 }
 
 #nav{
@@ -25,7 +33,7 @@ body{
 	list-style-type: none;
 	padding: 0;
 	margin:0;
-	position: relative; 	
+	position: relative;
 }
 
 #nav ul li{
@@ -60,6 +68,7 @@ body{
 	border-top: 0;
 	margin-left: -5px;
 	min-width: 200px;
+	z-index: 1;
 }
 
 #nav ul ul li
@@ -76,6 +85,52 @@ body{
 }
 
 
+#nav1{
+
+	background-color: silver;
+	opacity: 0.8;
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+	font: sans-serif;
+	font-size: 14px;
+	padding: 2% 2% 2% 2%; /*space from top left right bottom*/
+}
+
+#nav1 h3{
+	text-decoration: underline;
+	padding-left: 3%;
+}
+
+#nav1 p:first-letter {
+    padding-left:15%;
+}/* to position first line horizontally */
+
+
+#nav1 ol{
+	padding-left:10%;
+}
+
+#nav1 p a{
+	text-decoration: none;
+}
+
+#nav2{
+	background-color: green;
+	text-align: justify;
+	opacity: 0.8;
+	margin: 5px 5px 5px 5px;
+	font: sans-serif;
+	font-size: 14px;
+	padding: 5px 5px 5px 5px;
+	color: navy;
+}
+
+#nav2 p:first-letter {
+    padding-left:15%;
+}/* to position first line horizontally */
+
+
+
 #main-footer
 {
 
@@ -83,6 +138,7 @@ body{
 	text-align: center;
 	padding: 20px;
 	margin-top: 40px;
+	text-shadow: 3px 2px silver;
 }
 
 

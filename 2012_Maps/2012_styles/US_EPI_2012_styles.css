@@ -1,3 +1,11 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+	background-color: #90EE90;
+}
+
 #nav{
 
 	background-color: #222;
@@ -66,12 +74,23 @@
 	color:#099;
 }
 
+#nav1{
+	background-color: pink;
+	margin: 5px 5px 5px 5px;
+	padding: 1%;
+	color: green;
+	opacity: 0.8;
+	text-shadow: 3px 2px red;
+}
+
 
 #main-footer
 {
 
-	color: black;
+	color: #fff;
 	text-align: center;
 	padding: 20px;
 	margin-top: 40px;
+	text-shadow: 3px 2px red;
+	font-size: 18px;
 }

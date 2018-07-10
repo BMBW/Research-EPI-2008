@@ -10,7 +10,7 @@ body{
 }
 
 #nav0{
-	background-color: pink;
+	background-color: silver;
 	margin: 5px 5px 5px 5px;
 	padding: 1%;
 	color: green;
@@ -21,24 +21,30 @@ body{
 #nav{
 
 	background-color: #222;
+	position: absolute;
+	z-index: 1;
+	height: 107%;
 }
 
  #nav_wrapper{
-	width: 960px; 
-	margin: 0 auto;
+	width: 100%; 
+	margin: 0 auto;/* auto is used to horizontally center the elements within the container*/
 	text-align: left;
 }
 
 #nav ul{
+
 	list-style-type: none;
 	padding: 0;
-	margin:0;
+	margin-top: 160px;
 	position: relative;
 }
 
 #nav ul li{
-	display: inline-block;
+	display:block;
+	text-align:left; 
 }
+
 
 #nav ul li:hover{
 	background-color:#333; 
@@ -58,6 +64,7 @@ body{
 
 #nav ul li:hover ul{
 	display:block;
+	 /*drop down position from left side*/
 }
 
 #nav ul ul{
@@ -65,8 +72,9 @@ body{
 	position: absolute;
 	background-color:#333;
 	border: 5px solid #222;
-	border-top: 0;
-	margin-left: -5px;
+	border-left:0;
+	margin-top:-50px; /*distance from top*/
+	margin-left:75px; /*distance from left*/	
 	min-width: 200px;
 	z-index: 1;
 }
@@ -93,7 +101,7 @@ body{
 	text-align: justify;
 	font: sans-serif;
 	font-size: 14px;
-	padding: 2% 2% 2% 2%; /*space from top left right bottom*/
+	padding: 2% 2% 2% 7%; /*space from top left right bottom*/
 }
 
 #nav1 h3{
@@ -115,7 +123,7 @@ body{
 }
 
 #nav2{
-	background-color: green;
+	background-color: silver;
 	text-align: justify;
 	opacity: 0.8;
 	margin: 5px 5px 5px 5px;
@@ -140,11 +148,3 @@ body{
 	margin-top: 40px;
 	text-shadow: 3px 2px silver;
 }
-
-
-
-
-
-
-
-

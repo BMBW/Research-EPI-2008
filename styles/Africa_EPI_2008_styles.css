@@ -76,29 +76,30 @@ body{
 }
 
 #nav1{
-	background-color: pink;
+	background-color: blue;
 	margin: 5px 5px 5px 5px;
 	padding: 1%;
-	color: green;
+	color: white;
 	opacity: 0.8;
-	text-shadow: 3px 2px red;
+	text-shadow: 3px 2px green;
 }
 
 #nav2{
-	background-color: yellow;
-	padding-left: 1%;
-	padding-right: 1%;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	position: relative;
-	margin-left: 569px;
-	margin-right: 5px;
+	background-color: white;
+	opacity: 0.8;
+	margin: 5px 5px 5px 5px;
 	text-align: justify;
+	font: sans-serif;
 	font-size: 18px;
+	padding: 1% 1% 1% 1%;
 }
 
 #nav2 p:first-letter{
 	 padding-left:15%;
+}
+
+#nav3{
+	position: relative;
 }
 
 #main-footer

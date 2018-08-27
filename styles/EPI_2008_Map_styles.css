@@ -75,23 +75,23 @@ body{
 }
 
 #nav1{
-	background-color: pink;
+	background-color: blue;
 	margin: 5px 5px 5px 5px;
 	padding: 1%;
-	color: green;
+	color: white;
 	opacity: 0.8;
-	text-shadow: 3px 2px red;
+	text-shadow: 3px 2px green;
 }
 
 #nav2{
 
-	background-color: #90EE90;
+	background-color: white;
 	opacity: 0.8;
 	margin: 5px 5px 5px 5px;
 	text-align: justify;
 	font: sans-serif;
-	font-size: 14px;
-	padding: 1% 1% 1% 1%; /*space from top left right bottom*/
+	font-size: 18px;
+	padding: 1%; /*space from top left right bottom*/
 }
 
 #nav2 p:first-letter {
@@ -104,7 +104,7 @@ body{
 
 #nav3 {
 
-	background-color: yellow;
+	background-color: white;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 1%;

@@ -137,7 +137,33 @@ body{
     padding-left:10%;
 }/* to position first line horizontally */
 
+/* Style the links inside the sidenav */
+#Contactnav a {
+	position: absolute; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    z-index: 1;
+}
 
+#Contactnav a:hover {
+    left: 0 /* On mouse-over, make the elements appear as they should */
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#contacts {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
 
 #main-footer
 {

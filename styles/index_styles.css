@@ -13,9 +13,9 @@ body{
 	background-color: silver;
 	margin: 5px 5px 5px 5px;
 	padding: 1%;
-	color: green;
+	color: white;
 	opacity: 0.8;
-	text-shadow: 3px 2px red;
+	text-shadow: 3px 2px green;
 }
 
 #nav{
@@ -23,7 +23,7 @@ body{
 	background-color: #222;
 	position: absolute;
 	z-index: 1;
-	height: 107%;
+	height: 134%;
 }
 
  #nav_wrapper{
@@ -36,7 +36,7 @@ body{
 
 	list-style-type: none;
 	padding: 0;
-	margin-top: 160px;
+	margin-top: 230px;
 	position: relative;
 }
 
@@ -100,7 +100,7 @@ body{
 	margin: 5px 5px 5px 5px;
 	text-align: justify;
 	font: sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 2% 2% 2% 7%; /*space from top left right bottom*/
 }
 
@@ -110,7 +110,7 @@ body{
 }
 
 #nav1 p:first-letter {
-    padding-left:15%;
+    padding-left:5%;
 }/* to position first line horizontally */
 
 
@@ -128,13 +128,13 @@ body{
 	opacity: 0.8;
 	margin: 5px 5px 5px 5px;
 	font: sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	padding: 5px 5px 5px 5px;
 	color: navy;
 }
 
 #nav2 p:first-letter {
-    padding-left:15%;
+    padding-left:10%;
 }/* to position first line horizontally */
 
 
